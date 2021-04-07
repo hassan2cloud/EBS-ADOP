@@ -1,0 +1,2 @@
+{ echo $apps_pw; echo $sys_pw; echo $web_pw; } | adop phase=apply patchtop=/install.media2/FMLOB_12C/EBS/patches/EBS patches=30735865 apply_mode=downtime
+downtime format
